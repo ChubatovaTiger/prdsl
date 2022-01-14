@@ -118,7 +118,7 @@ object B1ok4 : BuildType({
             vcsRootExtId = "${HttpsGithubComAChubatovaPRrepo.id}"
             provider = github {
                 authType = token {
-                    token = "credentialsJSON:507ceefe-285a-408d-9132-8cd684283aa5"
+                    token = "credentialsJSON:c247bed8-0201-4199-a9b1-1e68c2bc6320"
                 }
                 filterTargetBranch = "+:dkjh"
                 filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
@@ -141,7 +141,7 @@ object B2notok : BuildType({
                 authType = token {
                     token = "credentialsJSON:ca9153fc-02ce-4f9d-b2fb-4a83b487be95"
                 }
-                filterTargetBranch = "+:refs/heads/skdj"
+                filterTargetBranch = "+:refs/heads/skdkjh"
                 filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
             }
         }
