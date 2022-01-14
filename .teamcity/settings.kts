@@ -143,7 +143,7 @@ object B2notok : BuildType({
             vcsRootExtId = "${HttpsGithubComAChubatovaPRrepo.id}"
             provider = github {
                 authType = token {
-                    token = "credentialsJSON:141743db-2023-4c4d-9919-df44ff5555bd"
+                    token = "credentialsJSON:ca9153fc-02ce-4f9d-b2fb-4a83b487be95"
                 }
                 filterTargetBranch = "+:refs/heads/skdj"
                 filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
