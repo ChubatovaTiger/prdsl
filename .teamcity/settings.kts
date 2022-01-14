@@ -52,7 +52,7 @@ object B1ok : BuildType({
             vcsRootExtId = "${HttpsGithubComAChubatovaPRrepo.id}"
             provider = github {
                 authType = token {
-                    token = "credentialsJSON:61129cde-2525-464a-9e91-f2428bb1be9a"
+                    token = "credentialsJSON:ca9153fc-02ce-4f9d-b2fb-4a83b487be95"
                 }
                 filterTargetBranch = "+:aasdasd"
                 filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
