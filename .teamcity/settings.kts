@@ -136,7 +136,6 @@ object B2notok : BuildType({
 
     features {
         pullRequests {
-            enabled = false
             vcsRootExtId = "${HttpsGithubComAChubatovaPRrepo.id}"
             provider = github {
                 authType = token {
