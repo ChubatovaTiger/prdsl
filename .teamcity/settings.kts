@@ -53,7 +53,7 @@ object B1ok : BuildType({
                 authType = token {
                     token = "credentialsJSON:48298926-e464-458d-9780-6b7f8bc10173"
                 }
-                filterTargetBranch = "+:*"
+                filterTargetBranch = "+:дорорло"
                 filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
             }
         }
