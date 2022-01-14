@@ -117,7 +117,6 @@ object B1ok4 : BuildType({
 
     features {
         pullRequests {
-            enabled = false
             vcsRootExtId = "${HttpsGithubComAChubatovaPRrepo.id}"
             provider = github {
                 authType = token {
