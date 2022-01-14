@@ -118,9 +118,9 @@ object B1ok4 : BuildType({
             vcsRootExtId = "${HttpsGithubComAChubatovaPRrepo.id}"
             provider = github {
                 authType = token {
-                    token = "credentialsJSON:ca9153fc-02ce-4f9d-b2fb-4a83b487be95"
+                    token = "credentialsJSON:507ceefe-285a-408d-9132-8cd684283aa5"
                 }
-                filterTargetBranch = "+:*"
+                filterTargetBranch = "+:dkjh"
                 filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
             }
         }
